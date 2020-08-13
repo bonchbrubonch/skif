@@ -1,0 +1,91 @@
+
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+box-sizing: inherit;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+}
+ul,
+li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+body{
+  @include f400;
+  font-size: 16px;
+}
+.container{
+  max-width: 1330px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+.container-fluid{
+  max-width: 1940px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+.title{
+  @include f700;
+  font-size: 30px;
+  line-height: 45px;
+  span{
+    color: #4D71EE;
+  }
+}
+.text{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+}
+.button{
+  padding: 9px 25px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 55px;
+  color: #fff;
+  background: linear-gradient(136.08deg, #4271EC -2.32%, #A868FF 87.23%);
+  box-shadow: 0px 5px 30px rgba(132, 108, 249, 0.71);
+  border-radius: 37px;
+  transition: all .3s;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  &:hover{
+    transform: scale(1.03);
+  }
+}
+.suptitle{
+  @include f600;
+  font-size: 20px;
+  line-height: 45px;
+  color: #F67B92;
+  text-shadow: 0px 0px 20px rgba(246, 123, 146, 0.47);
+}
+.input{
+  max-width: 330px;
+  width: 100%;
+  padding: 12px 40px;
+  border: 1px solid #A3B7FF;
+  box-shadow: inset 10px 10px 20px rgba(10, 10, 10, .09);
+  border-radius: 30px;
+  font-size: 16px;
+  line-height: 35px;
+  color: #010047;
+  opacity: 0.5;
+  outline: none;
+}
+
+
+
+
+
