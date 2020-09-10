@@ -16,8 +16,8 @@ $(function () {
   });
 
   $('.atmosfere__slider-inner').slick({
-    prevArrow: '<img class="slider-arrows slider-arrows__left" src="../images/icons/nextArrow2.svg" alt=""></img>',
-    nextArrow: '<img class="slider-arrows slider-arrows__right" src="../images/icons/prewArrow1.svg" alt=""></img>',
+    prevArrow: '<img class="slider-arrows slider-arrows__left" src="images/icons/nextArrow2.svg" alt=""></img>',
+    nextArrow: '<img class="slider-arrows slider-arrows__right" src="images/icons/prewArrow1.svg" alt=""></img>',
     arrows: true,
     dots: false,
     autoplay: true,

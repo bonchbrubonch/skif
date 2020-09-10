@@ -581,4 +581,18 @@
   .footer__phone-link {
     font-size: 12px;
   }
+  #modal {
+    padding: 15px;
+    .button{
+      padding: 5px 20px;
+    }
+    .free-cost__fake {
+      width: 28px;
+    }
+  }
+  .free-cost__text{
+    line-height: 22px;
+    margin-left: 9px; 
+  }
+
 }
